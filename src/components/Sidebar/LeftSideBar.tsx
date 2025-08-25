@@ -47,7 +47,7 @@ const LeftSideBar = () => {
 
   return (
     <aside
-      className={`bg-white border-r border-gray-200 h-screen p-4 flex flex-col transition-all duration-300 ${
+      className={`bg-white border-r border-gray-200 p-4 flex flex-col transition-all duration-300 ${
         collapsed ? "w-12" : "w-64"
       } relative`}>
       {/* Collapse/Expand Button */}
